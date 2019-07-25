@@ -4,20 +4,24 @@ header {
 
 main {
   display: grid;
+  grid-template-areas:
     'aside article article'
     'aside footer footer';
   grid-gap: 30px;
 }
 
 aside {
+  grid-area: aside;
   background: #F94A4A;
 }
 
 article {
+  grid-area: artile;
   background: #FFCCCC;
 }
 
 footer {
+  grid-area: footer;
   background: #3D0000;
   color: white
 }
