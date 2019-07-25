@@ -1,3 +1,17 @@
-header{
-background-color:red;
+
+header {
+  background-color: #B71C1C;
+}
+
+aside {
+  background: #F94A4A;
+}
+
+article {
+  background: #FFCCCC;
+}
+
+footer {
+  background: #3D0000;
+  color: white
 }
